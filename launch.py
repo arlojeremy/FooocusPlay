@@ -5,7 +5,7 @@ import sys
 print('[System ARGV] ' + str(sys.argv))
 
 # root = os.path.dirname(os.path.abspath(__file__))
-root = ("/content/drive/MyDrive/fooocus/Fooocusplay")
+root = ("/content/drive/MyDrive/Fooocus/Fooocusplay")
 sys.path.append(root)
 os.chdir(root)
 
