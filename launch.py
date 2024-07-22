@@ -4,12 +4,12 @@ import sys
 
 print('[System ARGV] ' + str(sys.argv))
 
-root = os.path.dirname(os.path.abspath(__file__))
-# root = ("/content/drive/MyDrive/Colab Notebooks/fooocus")
+# root = os.path.dirname(os.path.abspath(__file__))
+root = ("/content/drive/MyDrive/Colab Notebooks/fooocus")
 sys.path.append(root)
 os.chdir(root)
 
-print('HERE IS WHAT ROOT IS: ', root)
+print('HERE IS WHAT ROOT IS: ', root) # /content/Fooocusplay
 
 os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
 os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
